@@ -11,6 +11,7 @@ qt_add_executable(parser
     widget.cpp
     widget.h
     widget.ui
+    parser.h parser.cpp
 )
 
 target_link_libraries(parser
