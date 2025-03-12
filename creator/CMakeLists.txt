@@ -11,6 +11,7 @@ qt_add_executable(creator
     widget.cpp
     widget.h
     widget.ui
+    icdgenerator.h icdgenerator.cpp
 )
 
 target_link_libraries(creator
